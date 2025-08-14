@@ -1,0 +1,67 @@
+/*--------------------------------------------------------------
+# Global Sections
+--------------------------------------------------------------*/
+section,
+.section {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 60px 0;
+  scroll-margin-top: 90px;
+  overflow: clip;
+}
+
+@media (max-width: 1199px) {
+
+  section,
+  .section {
+    scroll-margin-top: 66px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Global Section Titles
+--------------------------------------------------------------*/
+.section-title {
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+@import './sections/_hero.scss';
+@import './sections/_about-2.scss';
+@import './sections/_projects-2.scss';
+@import './sections/_projects.scss';
+@import './sections/_agents.scss';
+@import './sections/_testimonials.scss';
+@import './sections/_call-to-action.scss';
+@import './sections/_about.scss';
+@import './sections/_stats.scss';
+@import './sections/_features.scss';
+@import './sections/_service-details.scss';
+@import './sections/_featured-agents.scss';
+@import './sections/_featured-agents-2.scss';
+@import './sections/_portfolio.scss';
+@import './sections/_portfolio-2.scss';
+@import './sections/_real-estate-2.scss';
+@import './sections/_starter-section.scss';
+@import './sections/_featured-destinations.scss';
+@import './sections/_blog-posts.scss';
+@import './sections/_blog-posts-2.scss';
+@import './sections/_pagination-2.scss';
+@import './sections/_blog-details.scss';
+@import './sections/_blog-section.scss';
+@import './sections/_blog-details-2.scss';
+@import './sections/_blog-section-2.scss';
+@import './sections/_instructor-profile.scss';
+@import './sections/_properties.scss';
+@import './sections/_room-details.scss';
